@@ -438,6 +438,10 @@ LRESULT CSearchDlg::DlgFunc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPara
             m_resizer.AddControl(hwndDlg, IDC_PATHMRU, RESIZER_TOPLEFT);
             m_resizer.AddControl(hwndDlg, IDC_SEARCHPATH, RESIZER_TOPLEFTRIGHT);
             m_resizer.AddControl(hwndDlg, IDC_NEWINSTANCE, RESIZER_TOPRIGHT);
+
+            m_resizer.AddControl(hwndDlg, IDC_PREVIOUS_SEARCH, RESIZER_TOPRIGHT);
+            m_resizer.AddControl(hwndDlg, IDC_NEXT_SEARCH, RESIZER_TOPRIGHT);
+
             m_resizer.AddControl(hwndDlg, IDC_SEARCHPATHBROWSE, RESIZER_TOPRIGHT);
             m_resizer.AddControl(hwndDlg, IDC_GROUPSEARCHFOR, RESIZER_TOPLEFTRIGHT);
             m_resizer.AddControl(hwndDlg, IDC_REGEXRADIO, RESIZER_TOPLEFT);
